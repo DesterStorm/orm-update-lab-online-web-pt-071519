@@ -56,7 +56,7 @@ class Student
     id = [0]
     name = [1]
     grade = [2]
-    self.new
+    self.new(id, name, grade)
   end
 
 end
