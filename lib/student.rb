@@ -38,7 +38,9 @@ class Student
     if self.id
       self.update
     else
-      
+      sql = <<-SQL
+      INSERT INTO 
+      SQL
   end
 
 end
