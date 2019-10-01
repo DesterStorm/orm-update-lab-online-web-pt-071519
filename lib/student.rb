@@ -61,7 +61,7 @@ class Student
   
   def find_by_name
     sql = <<-SQL
-    SELECT * FROM students WHERE 
+    SELECT * FROM students WHERE name = ?
     SQL
   end
 
