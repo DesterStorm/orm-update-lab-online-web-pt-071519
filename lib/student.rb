@@ -53,5 +53,10 @@ class Student
   end
   
   def new_from_db
+    id = [0]
+    name = [1]
+    grade = [2]
+    self.new
+  end
 
 end
